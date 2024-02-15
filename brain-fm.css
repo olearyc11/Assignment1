@@ -1,112 +1,49 @@
 html{
-    background-color: rgb(73, 21, 248, 255);
-    max-width: 150vh;
+    background-color: rgb(73, 21, 248, 255); ;
 }
 
-body{
-    margin:auto;
-    max-width: 150vh;
-}
-
-#logoimage{
-    width: 180px;
-    margin-top: 7%;
-    margin-left: 21%;
+body {
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .header{
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1%;
 }
+
+
+.brainfm{
+    margin-left: 2%;
+    flex-grow: 1;
+}
+
+#brainfm{
+    width: 19%
+}
+
+.signortry{
+    margin-right: 19%;
+}
+
 
 #sign-in{
     background-color:transparent;
     border-color: transparent;
     color: rgb(180, 178, 174);
-    font-size: 18px;
+    font-size: 22px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 
 #try{
     background-color: orange;
     color: white;
-    margin-top: 6%;
-    font-size: 18px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-
-}
-
-.signortry{
-    margin-right: 14%;
-}
-
-.body1{
-    display: flex;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width:100%;
-}
-
-#heading{
-    color:white;
-    font-size: 38px;
-}
-
-#heading2 {
-    color:white;
-    margin-top: 1%;
-    font-size: 45px;
-    margin-top: -7%;
-
-}
-
-#pgraph1{
-    color:rgb(182, 172, 172);
-    font-size: 19px;
-    margin-top: -3%;
-}
-
-#featured{
-    font-size: 16px;
-    color: rgb(180, 178, 174);
-    margin-top: -2%;
-
-}
-
-
-#featuredimage{
-    width: 535px;
-}
-
-#freesessions {
-    margin-top: 5%;
-    background-color: orange;
-    border-color: transparent;
-    color: white;
     font-size: 22px;
-    padding: 25px 90px;
-
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-
-#compimage{
-    float: right;
-    width: 845px;
-    margin-top: 13%;
-    margin-right: 7%;
-}
-
-.body2{
-    width: 100%;
-}
-
-.left-text{
-    margin-top: 15%;
-    position: relative;
-    float:left;
-    margin-left: 4%;
-}
-
 
 .buttons{
     border: none;
@@ -120,58 +57,126 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.body1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex: 1
+}
 
+.left-text{
+    margin-top: 18%;
+    margin-left: 3%;
+    position: absolute;
+    margin-right: 56%;
+    flex: 1;
+}
+
+.compimageblock{
+    margin-top: 12%;
+    padding-left: 8%;
+    margin-left: 31%;
+    margin-right: 4%;
+    flex: 1;
+}
+
+#compimage{
+    width:100%;
+}
+
+
+.body2{
+    margin-top: 15%;
+    text-align: center;
+    flex: 1;
+}
+
+#heading{
+    color:white;
+    font-size: 48px;
+    margin-bottom: -6%;
+    font-weight: lighter;
+}
+
+#heading2 {
+    color:white;
+    font-size: 52px;
+    font-weight: bolder;
+}
+
+
+
+#pgraph1{
+    color:rgb(182, 172, 172);
+    font-size: 26px;
+    width: 100%;
+}
+
+#featuredimage{
+    width: 77%;
+}
+
+#featured{
+    font-size: 18px;
+    color: rgb(180, 178, 174);
+}
+
+
+#freesessions {
+    background-color: orange;
+    border-color: transparent;
+    color: white;
+    font-size: 22px;
+    padding: 25px 90px;
+    margin-top: 7%;
+    font-weight: bolder;
+}
+
+.body3{
+    display: flex;
+    margin-top: 14%;
+    text-align: center;
+}
 
 #science{
     color: white;
     font-size: 22px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    margin-top: 15%;
+}
 
+.brainImage{
+    margin-left: 7%;
+    margin-right: 3%;
+    flex: 1;
 }
 
 #brainImage{
-    float:left;
-    margin-left: 38%;
-    width: 480px;
+    width: 85%;
+}
+
+.comparisonImage{
+    margin-right: 10%;
+    margin-top: 1%;
+    flex: 1;
 }
 
 #comparisonImage{
-    float:right;
-    margin-right: -65%;
-    padding-top: 2%;
-    width: 455px;
-}
-
-.body3{
-    display:flex;
-    margin-top: 10%;
-    width: 100%;
-
+    width: 75%;
 }
 
 .body4{
     display: flex;
-    margin-top: 2%;
-    width: 100%;
+    margin-top: 1%;
 }
+
 
 .body4text{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 15px;
+    font-size: 23px;
     color: white;
-
-}
-
-.tech-text{
-    float: left;
-    margin-left: 11%;
-}
-
-.behaviortext{
-    float: right;
-    margin-left: 8%;
+    width: 100%;
+    font-weight: lighter;
+    text-size-adjust: auto;
 }
 
 .body4head{
@@ -186,8 +191,24 @@ body{
     border-color: transparent;
     cursor: pointer;
     font-size: 21px;
+    text-decoration: underline;
+    font-weight: bolder;
 }
 
-#exploreMore{
-    text-decoration: underline;
+
+.tech-text{
+    margin-left: 9%;
+    margin-right: 2%;
+    flex: 1;
 }
+
+.behaviortext{
+    margin-right: 9%;
+    flex: 1;
+}
+
+
+
+
+
+
